@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Dev finder</title>
+</head>
+
+<body class="dark-theme">
+    <div class="container">
+        <header class="header">
+            <img src="img/devfinder.svg" alt="logo dev-finder">
+
+            <button class="btn-theme">
+                <span class="text-theme">Light</span>
+                <i class='bx bxs-sun dark-icon'></i>
+            </button>
+        </header>
+
+        <form action="" method="post" id="form" class="form">
+            <i class='bx bx-search search-icon'></i>
+            <input type="text" name="search" id="search" class="input-search" placeholder="Search Github username.."
+                autocomplete="off">
+            <span id="error">User not found</span>
+            <button class="btn-search">Search</button>
+        </form>
+
+        <main id="main"></main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
